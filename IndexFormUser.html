@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Usuario</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+	<form name="usurio" action="LogicaRegistro.php" method="GET">
+	<h1>Formulario Aspirante</h1>
+	</br>
+	<label>NOMBRE</label>
+	<br/>
+	<input type="text" name="nombre"/>
+	<br/>
+	<br/>
+	<label>DOCUMENTO</label>
+	<br/>
+	<input type="number" name="documento"/>
+	<br/>
+	<br/>
+	<label>CURSO QUE ASPIRA INGRESAR</label>
+	<br/>
+	<select name="curso">
+		<option value="ADSI">ADSI</option>
+		<option value="GRD">GRD</option>
+		<option value="MECDICE">MECDICE</option>
+		<option value="TAI">TAI</option>
+		<option value="TPS5">TPS</option>
+		<option value="TIMEI">TIMEI</option>
+	</select>
+	<br/>
+	<br/>	
+	<label>FECHA DE NACIMIENTO</label>
+	<br/>
+	<input type="date" name="nacimiento"/>
+	<br/>
+	<br/>
+	<button type="submit" name="enviar">Enviar</button>
+	</form>
+</body>
+</html>

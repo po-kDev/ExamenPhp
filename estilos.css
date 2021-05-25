@@ -1,0 +1,44 @@
+body{
+	background: white;
+}
+
+form{
+	margin:50% ;
+	border: 1px solid #ccc;
+	margin: 30px;
+	padding: 30px;
+	background: rgb(241, 189, 145);
+}
+
+h1{
+	text-align: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button{
+	-webkit-appearance: none;
+	margin: 0;
+}
+input[type="number"]{
+	-moz-appearance: textfield;
+}
+
+button{
+	background: gray;
+	color: white;
+	width: 25%;
+	padding: 10px;
+	margin: 0 0 0 40%;
+}
+.resultado{
+	margin: 300px auto;
+	background: rgb(241, 189, 145);
+	padding: 50px;
+ }
+
+select{
+	width: 25%;
+	background: white;
+	padding: 5px;
+	border-radius: 5px;
+}
